@@ -4,7 +4,7 @@ Selected initially temperature as the target and performed log functions for fea
 
 Subsequently the target was changed to rainfall prediction. Raindrop is the file for source code for this project henceforth.
 
-Applied OLS, Linear Regression, Lasso, Ridge (no ElasticNet) at different alphas and Polynomial to find the best R^2.
+Applied Regression models - OLS, Lasso, Ridge (no ElasticNet) at different alphas and Polynomial to find the best R^2.
 
 However, given that the target is not normally distributed, none of these regression models works. This was reflected via the error scattered plot, histograms of bin after sqroot and log on target and lastly the box-cox transformation. 
 
